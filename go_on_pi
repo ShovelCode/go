@@ -1,0 +1,9 @@
+getting  Go up and running
+sudo apt-get install gccgo
+respond Y
+
+Just like compiling a C program.
+
+hello_world.go
+gccgo  hello_world.go -o hello_world
+./hello_world
