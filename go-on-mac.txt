@@ -1,1 +1,6 @@
 (apple silicon 64 bit)
+
+which go #shows location
+vi hello-world.go #editing a program in a directory
+go run hello-world.go
+
