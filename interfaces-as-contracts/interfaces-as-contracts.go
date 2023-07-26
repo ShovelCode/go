@@ -17,3 +17,18 @@ type Rectangle struct {
 func (r Rectangle) Area() float64 {
     return r.Length * r.Width
 }
+
+
+
+func printArea(s Shape) {
+    fmt.Println(s.Area())
+}
+
+
+func main() {
+    c := Circle{Radius: 5}
+    printArea(c)
+    
+    r := Rectangle{Length: 3, Width: 4}
+    printArea(r)
+}
