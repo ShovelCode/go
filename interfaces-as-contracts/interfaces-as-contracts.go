@@ -1,3 +1,10 @@
+package main
+
+import (
+    "fmt"
+    "math"
+)
+
 type Shape interface {
     Area() float64
 }
@@ -18,12 +25,9 @@ func (r Rectangle) Area() float64 {
     return r.Length * r.Width
 }
 
-
-
 func printArea(s Shape) {
     fmt.Println(s.Area())
 }
-
 
 func main() {
     c := Circle{Radius: 5}
