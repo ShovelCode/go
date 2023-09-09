@@ -1,0 +1,47 @@
+The 25 standard keywords for Go.
+
+1. `break`
+2. `default`
+3. `func`
+4. `interface`
+5. `select`
+6. `case`
+7. `defer`
+8. `go`
+9. `map`
+10. `struct`
+11. `chan`
+12. `else`
+13. `goto`
+14. `package`
+15. `switch`
+16. `const`
+17. `fallthrough`
+18. `if`
+19. `range`
+20. `type`
+21. `continue`
+22. `for`
+23. `import`
+24. `return`
+25. `var`
+
+Avoiding branches reduces it to:
+
+1. default
+2. func
+3. interface
+4. select
+7. defer
+8. go
+9. map
+10. struct
+11. chan
+12. pakcage
+13. const
+14. range
+15. type
+16. for
+17. import
+18. return
+19. var
